@@ -1,6 +1,8 @@
 
 # react-native-wifi-manager
 
+This is a WIP to create a native WiFi Manager wrapper.
+
 ## Getting started
 
 `$ npm install react-native-wifi-manager --save`
@@ -33,15 +35,6 @@
   	```
       compile project(':react-native-wifi-manager')
   	```
-
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNWifiManager.sln` in `node_modules/react-native-wifi-manager/windows/RNWifiManager.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Wifi.Manager.RNWifiManager;` to the usings at the top of the file
-  - Add `new RNWifiManagerPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
 
 ## Usage
 ```javascript
